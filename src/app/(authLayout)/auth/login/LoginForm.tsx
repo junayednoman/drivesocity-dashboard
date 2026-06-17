@@ -58,8 +58,8 @@ const LoginForm = () => {
       <AForm
         schema={loginSchema}
         defaultValues={{
-          email: "junayednoman05@gmail.com",
-          password: "newpass",
+          email: "",
+          password: "",
           rememberPassword: false,
         }}
         onSubmit={onSubmit}
